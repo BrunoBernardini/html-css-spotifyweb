@@ -1,0 +1,18 @@
+/* HEADER */
+
+header .btn{
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 9px 40px 12px 40px;
+  margin: 20px;
+}
+
+header .btn:hover{
+  transform: scale(1.1);
+}
+
+header a{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
