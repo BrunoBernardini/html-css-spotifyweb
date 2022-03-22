@@ -29,6 +29,9 @@ main section{
 
 main section{
   background-color: #141922;
+  padding-top: 100px;
+  color: white;
+  overflow-y: auto;
 }
 
 footer{
