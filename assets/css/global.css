@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 90px;
+}
+
+header,
+main section{
+  width: calc(100% - 230px);
+}
+
+aside{
+  width: 230px;
+}
+
+main aside,
+main section{
+  height: calc(100vh - 90px);
+}
+
+footer{
+  width: 100%;
+  height: 90px;
+}
