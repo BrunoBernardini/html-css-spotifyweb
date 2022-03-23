@@ -137,3 +137,18 @@ aside .playlists li{
 }
 
 /*-------------------- SECTION -------------------- */
+
+section nav{
+  margin-top: 107px;
+  color: #808080;
+}
+
+section nav ul{
+  text-align: center;
+}
+section nav li{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0 9px;
+}
