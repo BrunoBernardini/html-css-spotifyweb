@@ -52,7 +52,7 @@ main{
   background-color: #141922;
   color: white;
   overflow-y: auto;
-  padding-left: 20px;
+  padding: 0 35px 0 20px;
 }
 
 footer{

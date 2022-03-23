@@ -140,7 +140,7 @@ aside .playlists li:last-of-type{
   width: 100%;
 }
 
-/*-------------------- ALBUMS -------------------- */
+/*-------------------- ALBUMS SECTION -------------------- */
 
 /* Navbar */
 
@@ -171,6 +171,20 @@ aside .playlists li:last-of-type{
   display: none;
 }
 
-/*  */
+/* Albums */
 
-.albums
+.albums h2{
+  margin: 35px 0 29px 0;
+}
+
+.albums .content{
+  width: 100%;
+  min-height: 30px;
+  flex-wrap: wrap;
+}
+
+.albums .content .album{
+  width: calc((100% / 6) - 14px);
+  margin-right: 14px;
+  min-height: 50px;
+}
