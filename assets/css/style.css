@@ -64,7 +64,7 @@ aside nav li{
 }
 
 aside nav li.active{
-  border-left: 3px solid #8bca26;
+  border-left: 3px solid #baff30;
   padding-left: 17px;
 }
 
@@ -101,6 +101,10 @@ aside .btn.white-hover:hover .plus-square{
 aside .playlists li{
   font-size: 13px;
   margin-bottom: 19px;
+}
+
+aside .playlists li:last-of-type{
+  margin-bottom: 0;
 }
 
 /* Aside bottom */
@@ -151,4 +155,16 @@ section nav li{
   text-transform: uppercase;
   font-size: 13px;
   margin: 0 9px;
+}
+
+section nav li.active .active-bar{
+  display: block;
+}
+
+.active-bar{
+  margin: 3px auto 0 auto;
+  height: 2px;
+  width: 30px;
+  background-color: #baff30;
+  display: none;
 }
