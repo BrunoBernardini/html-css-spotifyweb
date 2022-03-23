@@ -14,13 +14,27 @@ header .btn:hover{
 header a{
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 600;
 }
 
 /* ASIDE */
 
 aside{
-  padding: 20px;
+  padding: 20px 20px 0 20px;
+  overflow-y: hidden;
+}
+
+.aside-top{
+  /* height: calc(100% - 70px); */
+  height: 270px;
+}
+
+.aside-center{
+  height: calc(100% - 270px - 70px);
+  overflow-y: auto;
+}
+
+.aside-bottom{
+  height: 70px;
 }
 
 /* Logo settings */
@@ -52,7 +66,6 @@ aside nav img{
 aside nav li{
   padding: 5px 20px;
   font-size: 14px;
-  font-weight: 600;
 }
 
 aside nav li.active{
@@ -74,6 +87,7 @@ aside h3{
 
 aside .btn{
   align-items: center;
+  margin-bottom: 19px;
 }
 
 .plus-square{
@@ -84,4 +98,10 @@ aside .btn{
   background-color: #a3a3a3;
   font-size: 34px;
   color: black;
+}
+
+aside .playlists li{
+  font-size: 13px;
+  margin-bottom: 19px;
+  cursor: pointer;
 }
