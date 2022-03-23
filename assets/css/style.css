@@ -8,7 +8,7 @@ header .btn{
 }
 
 header .btn:hover{
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 header a{
@@ -16,3 +16,59 @@ header a{
   font-size: 13px;
   font-weight: 600;
 }
+
+/* ASIDE */
+
+aside{
+  padding: 20px;
+}
+
+/* Logo settings */
+
+aside .logo{
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+aside .logo img{
+  width: 100%;
+}
+
+.logo .small{
+  display: none;
+}
+
+/* Navbar */
+
+aside nav{
+  margin: 0 0 20px -20px;
+}
+
+aside nav img{
+  width: 14%;
+  vertical-align: middle;
+}
+
+aside nav li{
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b6b6b;
+}
+
+aside nav li.active{
+  border-left: 3px solid #8bca26;
+  padding-left: 17px;
+}
+
+aside nav li.active span{
+  color: white;
+}
+
+/* Playlist list */
+
+aside h3{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+

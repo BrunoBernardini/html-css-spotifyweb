@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 ul{
@@ -30,7 +31,7 @@ header{
 }
 
 header,
-main section{
+section{
   width: calc(100% - 230px);
 }
 
@@ -39,12 +40,12 @@ aside{
   background-color: black;
 }
 
-main aside,
-main section{
+aside,
+section{
   height: calc(100vh - 90px);
 }
 
-main section{
+section{
   background-color: #141922;
   padding-top: 100px;
   color: white;

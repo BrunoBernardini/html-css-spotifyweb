@@ -4,6 +4,10 @@
   clear: both;
 }
 
+.white-hover:hover{
+  color: white;
+}
+
 /* Flex utils */
 
 .d-flex{
