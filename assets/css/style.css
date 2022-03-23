@@ -53,7 +53,6 @@ aside nav li{
   padding: 5px 20px;
   font-size: 14px;
   font-weight: 600;
-  color: #6b6b6b;
 }
 
 aside nav li.active{
@@ -69,6 +68,20 @@ aside nav li.active span{
 
 aside h3{
   font-size: 14px;
-  margin-bottom: 5px;
+  margin-bottom: 11px;
+  color: white;
 }
 
+aside .btn{
+  align-items: center;
+}
+
+.plus-square{
+  display: inline-flex;
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+  background-color: #a3a3a3;
+  font-size: 34px;
+  color: black;
+}
