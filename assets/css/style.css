@@ -1,4 +1,4 @@
-/* HEADER */
+/*-------------------- HEADER -------------------- */
 
 header .btn{
   border: 1px solid white;
@@ -16,7 +16,7 @@ header a{
   font-size: 13px;
 }
 
-/* ASIDE */
+/*-------------------- ASIDE -------------------- */
 
 .aside-top{
   /* height: calc(100% - 70px); */
@@ -135,3 +135,5 @@ aside .playlists li{
 .profile-pic img{
   width: 100%;
 }
+
+/*-------------------- SECTION -------------------- */
