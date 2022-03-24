@@ -265,14 +265,32 @@
     <!-- /Footer left -->
 
     <!-- Player musicale (footer center) -->
-    <div class="player">
-
+    <div class="player d-flex">
+      <div class="controls d-flex">
+        <i class="fa-solid fa-shuffle"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-regular fa-circle-play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+        <i class="fa-solid fa-arrow-rotate-right"></i>
+      </div>
+      <div class="timeline d-flex">
+        <div class="timestamp">0:25</div>
+        <div class="full-bar" id="w-player">
+          <div class="inside-bar"></div>
+        </div>
+        <div class="timestamp">4:35</div>
+      </div>
     </div>
     <!-- /Footer center -->
 
     <!-- Controlli (footer right) -->
-    <div class="footer-right">
-
+    <div class="other-controls d-flex">
+      <i class="fa-solid fa-list-ul"></i>
+      <i class="fa-solid fa-display"></i>
+      <i class="fa-solid fa-volume-high"></i>
+      <div class="full-bar" id="w-controls">
+        <div class="inside-bar"></div>
+      </div>
     </div>
     <!-- /Footer right -->
   </footer>

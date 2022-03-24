@@ -214,7 +214,7 @@ aside .playlists li:last-of-type{
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity 0.15s linear;
+  transition: opacity .15s linear;
 }
 
 .album .thumbnail:hover i{
@@ -223,7 +223,7 @@ aside .playlists li:last-of-type{
 
 .album img{
   width: 100%;
-  transition: brightness 0.15s linear;
+  transition: all .15s linear;
 }
 
 .album .thumbnail:hover img{
@@ -286,4 +286,72 @@ aside .playlists li:last-of-type{
 
 .currently-playing .icons-btn i:first-of-type{
   margin-right: 14px;
+}
+
+/* Player - controls */
+
+.player{
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.controls{
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.controls .fa-circle-play{
+  font-size: 30px;
+  margin: 0 32px;
+}
+
+.controls .fa-shuffle,
+.controls .fa-forward-step{
+  margin-right: 22px;
+}
+
+/* Player - timeline */
+
+.timeline{
+  align-items: center;
+}
+
+.timeline .timestamp{
+  font-size: 10px;
+}
+
+.timeline .full-bar{
+  margin: 0 27px;
+}
+
+.full-bar#w-player{
+  width: 29.75vw;
+}
+
+.full-bar#w-player .inside-bar{
+  width: 20%;
+}
+
+/* Other-controls */
+
+.other-controls{
+  align-items: center;
+}
+
+.other-controls i{
+  font-size: 13px;
+}
+
+.other-controls .fa-display{
+  margin: 0 17px;
+}
+
+.full-bar#w-controls{
+  margin-left: 13px;
+  width: 8.2vw;
+}
+
+.full-bar#w-controls .inside-bar{
+  width: 20%;
 }
