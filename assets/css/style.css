@@ -45,7 +45,11 @@ aside .logo img{
   width: 100%;
 }
 
-.logo .small{
+.logo #big{
+  display: block;
+}
+
+.logo #small{
   display: none;
 }
 
@@ -366,7 +370,9 @@ aside .playlists li:last-of-type{
   width: 20%;
 }
 
-/* Correzione stringimento footer */
+/*-------------------- MEDIA QUERIES -------------------- */
+
+/* Correzione stringimento footer (per arrivare intorno ai 500px) */
 
 @media screen and (max-width:664px) {
 
@@ -380,5 +386,70 @@ aside .playlists li:last-of-type{
 
   .other-controls .fa-display{
     margin: 0 2.5vw;
+  }
+}
+
+/* Primo breakpoint: 1100px */
+
+@media screen and (max-width:1099px) {
+  .albums .content .album{
+    width: calc((100% / 4) - 14px);
+  }
+}
+
+/* Secondo breakpoint: 700px */
+@media screen and (max-width:699px) {
+  .albums .content .album{
+    width: calc((100% / 2) - 14px);
+  }
+}
+
+/* Terzo breakpoint: 600px */
+@media screen and (max-width:599px) {
+
+  /* Ridimensionamento sezioni */
+  aside{
+    width: 50px;
+    padding: 0;
+  }
+
+  header,
+  .albums{
+    width: calc(100% - 50px);
+  }
+
+  /* Cambio Logo */
+
+  aside .logo{
+    width: 100%;
+    
+  }
+
+  .logo #big{
+    display: none;
+  }
+  
+  .logo #small{
+    display: block;
+  }
+
+  /* Cambio contenuto aside */
+
+  aside nav li{
+    padding-left: 17px;
+  }
+
+  aside nav li.active{
+    border-left: 0 solid transparent;
+    padding-left: 17px;
+  }
+
+  aside nav li span{
+    display: none;
+  }
+
+  .playlists-top,
+  .playlists{
+    display: none;
   }
 }
