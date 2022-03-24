@@ -218,7 +218,7 @@ aside .playlists li:last-of-type{
   transition: opacity .15s linear;
 }
 
-.album .thumbnail:hover i{
+.album .thumbnail.play:hover i{
   opacity: 1;
 }
 
@@ -227,7 +227,7 @@ aside .playlists li:last-of-type{
   transition: all .15s linear;
 }
 
-.album .thumbnail:hover img{
+.album .thumbnail.play:hover img{
   filter: brightness(50%);
 }
 
@@ -365,6 +365,8 @@ aside .playlists li:last-of-type{
 .full-bar#w-controls .inside-bar{
   width: 20%;
 }
+
+/* Correzione stringimento footer */
 
 @media screen and (max-width:664px) {
 
