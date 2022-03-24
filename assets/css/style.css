@@ -216,7 +216,7 @@ aside .playlists li:last-of-type{
   font-size: 60px;
   opacity: 0;
   background-color: rgba(0, 0, 0, .5);
-  transition: opacity 0.15s linear;
+  transition: opacity 0.10s linear;
 }
 
 .overlay i{
