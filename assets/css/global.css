@@ -70,7 +70,28 @@ footer{
 }
 
 .full-bar .inside-bar{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
   height: 100%;
   background-color: #cccccc;
   border-radius: 10px;
+  transition: background-color .15s;
+}
+
+.full-bar .inside-bar .pointer{
+  background-color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  opacity: 0;
+  transition: opacity .15s;
+}
+
+.full-bar .inside-bar:hover{
+  background-color: #baff30;
+}
+
+.full-bar .inside-bar:hover .pointer{
+  opacity: 1;
 }
