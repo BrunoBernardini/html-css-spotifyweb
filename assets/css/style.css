@@ -410,7 +410,7 @@ aside .playlists li:last-of-type{
   /* Ridimensionamento sezioni */
   aside{
     width: 50px;
-    padding: 0;
+    padding: 5px 0;
   }
 
   header,
@@ -422,7 +422,8 @@ aside .playlists li:last-of-type{
 
   aside .logo{
     width: 100%;
-    
+    padding: 0 11px 0 11px;
+    margin-bottom: 10px;
   }
 
   .logo #big{
@@ -433,15 +434,19 @@ aside .playlists li:last-of-type{
     display: block;
   }
 
-  /* Cambio contenuto aside */
+  /* Cambio contenuto aside center */
+
+  aside nav{
+    margin-left: 0;
+  }
 
   aside nav li{
-    padding-left: 17px;
+    padding: 4.5px 0 4.5px 12px;
   }
 
   aside nav li.active{
     border-left: 0 solid transparent;
-    padding-left: 17px;
+    padding-left: 12px;
   }
 
   aside nav li span{
@@ -452,4 +457,6 @@ aside .playlists li:last-of-type{
   .playlists{
     display: none;
   }
+
+  /* Cambio contenuto aside bottom */
 }
