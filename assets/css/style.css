@@ -459,4 +459,19 @@ aside .playlists li:last-of-type{
   }
 
   /* Cambio contenuto aside bottom */
+
+  .aside-bottom .download img,
+  .aside-bottom .account .profile-pic{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aside-bottom .download{
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
+  
+  .aside-bottom span{
+    display: none;
+  }
 }
