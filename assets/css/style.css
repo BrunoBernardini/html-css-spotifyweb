@@ -261,7 +261,7 @@ aside .playlists li:last-of-type{
 }
 
 .currently-playing img{
-  max-width: 42px;
+  width: 42px;
 }
 
 .currently-playing .titles{
@@ -297,27 +297,27 @@ aside .playlists li:last-of-type{
   padding-top: 12px;
 }
 
-.controls{
+.player .controls{
   align-items: center;
   margin-bottom: 12px;
 }
 
-.controls i{
+.player .controls i{
   cursor: pointer;
 }
 
-.controls .fa-circle-play{
+.player .controls .fa-circle-play{
   font-size: 30px;
   margin: 0 32px;
   transition: transform .15s;
 }
 
-.controls .fa-circle-play:hover{
+.player .controls .fa-circle-play:hover{
   transform: scale(1.15);
 }
 
-.controls .fa-shuffle,
-.controls .fa-forward-step{
+.player .controls .fa-shuffle,
+.player .controls .fa-forward-step{
   margin-right: 22px;
 }
 
@@ -336,7 +336,7 @@ aside .playlists li:last-of-type{
 }
 
 .full-bar#w-player{
-  width: 29.75vw;
+  width: 29.73vw;
 }
 
 .full-bar#w-player .inside-bar{
@@ -358,10 +358,25 @@ aside .playlists li:last-of-type{
 }
 
 .full-bar#w-controls{
-  margin-left: 13px;
+  margin-left: 1vw;
   width: 8.2vw;
 }
 
 .full-bar#w-controls .inside-bar{
   width: 20%;
+}
+
+@media screen and (max-width:664px) {
+
+  .currently-playing img{
+    width: 6vw;
+  }
+
+  .currently-playing .titles{
+    margin-right: 1.5vw;
+  }
+
+  .other-controls .fa-display{
+    margin: 0 2.5vw;
+  }
 }
