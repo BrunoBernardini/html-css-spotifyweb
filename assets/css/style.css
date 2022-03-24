@@ -5,6 +5,7 @@ header .btn{
   border-radius: 50px;
   padding: 9px 40px 12px 40px;
   margin: 20px;
+  z-index: 999;
 }
 
 header .btn:hover{
@@ -199,9 +200,38 @@ aside .playlists li:last-of-type{
   min-height: 50px;
 }
 
+.album .thumbnail{
+  width: 100%;
+  position: relative;
+  margin-bottom: 13px;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, .5);
+  transition: opacity 0.15s linear;
+}
+
+.overlay i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.album .thumbnail:hover .overlay{
+  opacity: 1;
+  cursor: pointer;
+}
+
 .album img{
   width: 100%;
-  margin-bottom: 13px;
 }
 
 .album h3{
@@ -223,3 +253,5 @@ aside .playlists li:last-of-type{
 .album.circle img{
   border-radius: 50%;
 }
+
+/*-------------------- FOOTER -------------------- */
