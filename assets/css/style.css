@@ -418,6 +418,16 @@ aside .playlists li:last-of-type{
     width: calc(100% - 50px);
   }
 
+  .aside-center{
+    height: calc(100% - 273px - 65px);
+    overflow-y: auto;
+  }
+  
+  .aside-bottom{
+    height: 65px; 
+  }
+  
+
   /* Cambio Logo */
 
   aside .logo{
@@ -470,7 +480,7 @@ aside .playlists li:last-of-type{
     border-bottom: none;
     margin-bottom: 10px;
   }
-  
+
   .aside-bottom span{
     display: none;
   }
