@@ -204,6 +204,7 @@ aside .playlists li:last-of-type{
   width: 100%;
   position: relative;
   margin-bottom: 13px;
+  cursor: pointer;
 }
 
 .overlay{
@@ -227,7 +228,6 @@ aside .playlists li:last-of-type{
 
 .album .thumbnail:hover .overlay{
   opacity: 1;
-  cursor: pointer;
 }
 
 .album img{
