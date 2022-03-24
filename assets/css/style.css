@@ -264,7 +264,7 @@ aside .playlists li:last-of-type{
 }
 
 .currently-playing .titles{
-  margin-left: 12px;
+  margin: 0 43px 0 12px;
 }
 
 .currently-playing .titles h3{
@@ -274,4 +274,16 @@ aside .playlists li:last-of-type{
 
 .currently-playing .titles p{
   font-size: 10px;
+}
+
+.currently-playing .titles p:hover{
+  text-decoration: underline;
+}
+
+.currently-playing .icons-btn{
+  flex-wrap: wrap;
+}
+
+.currently-playing .icons-btn i:first-of-type{
+  margin-right: 14px;
 }
