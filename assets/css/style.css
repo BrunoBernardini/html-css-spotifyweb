@@ -156,7 +156,7 @@ aside .playlists li:last-of-type{
   display: inline-block;
   text-transform: uppercase;
   font-size: 13px;
-  margin: 0 9px 35px 9px;
+  margin: 0 8px 35px 9px;
 }
 
 .albums nav li.active .active-bar{
@@ -173,8 +173,18 @@ aside .playlists li:last-of-type{
 
 /* Albums */
 
-.albums h2{
+.albums .content-title p,
+.album p{
+  color: #808080;
+}
+
+.albums .content-title{
   margin-bottom: 29px;
+}
+
+.albums .content-title p{
+  font-size: 13px;
+  margin-top: 9px;
 }
 
 .albums .content{
@@ -203,5 +213,4 @@ aside .playlists li:last-of-type{
 .album p{
   font-size: 12px;
   text-align: center;
-  color: #808080;
 }
