@@ -195,7 +195,7 @@ aside .playlists li:last-of-type{
 
 .albums .content .album{
   width: calc((100% / 6) - 14px);
-  margin: 0 14px 34px 0;
+  margin: 0 14px 0 0;
   min-height: 50px;
 }
 
@@ -210,7 +210,16 @@ aside .playlists li:last-of-type{
   margin-bottom: 8px;
 }
 
+.album h3:last-child{
+  margin-bottom: 30px;
+}
+
 .album p{
   font-size: 12px;
   text-align: center;
+  margin-bottom: 34px;
+}
+
+.album.circle img{
+  border-radius: 50%;
 }
