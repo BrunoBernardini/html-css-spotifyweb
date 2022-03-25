@@ -219,7 +219,7 @@ aside .playlists li:last-of-type{
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity .15s linear;
+  transition: opacity .10s linear;
 }
 
 .album .thumbnail.play:hover i{
@@ -228,7 +228,7 @@ aside .playlists li:last-of-type{
 
 .album img{
   width: 100%;
-  transition: all .15s linear;
+  transition: all .10s linear;
 }
 
 .album .thumbnail.play:hover img{
@@ -253,6 +253,10 @@ aside .playlists li:last-of-type{
 
 .album.circle img{
   border-radius: 50%;
+}
+
+.album.circle:hover img{
+  transform: scale(.9);
 }
 
 /*-------------------- FOOTER -------------------- */
